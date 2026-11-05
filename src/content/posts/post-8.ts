@@ -16,9 +16,9 @@ export const post8: Article = {
   featuredImage: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'A modern financial dashboard depicting sustainable business metrics and steady organic growth',
   readingTime: 9,
-  seoTitle: 'How to Start a Sustainable Online Business in 2026 | Readora',
+  seoTitle: 'How to Build a Sustainable Online Business | Readora',
   seoDescription:
-    'A practical blueprint for launching a profitable, bootstrapped online business in 2026: calculating true customer acquisition costs, building high-retention audiences, and maintaining lean operating expenses.',
+    'A practical blueprint for bootstrapping a sustainable online business in 2026: audience retention, lean unit economics, and durable cash flow.',
   canonicalUrl: 'https://readora.me/blog/how-to-start-a-sustainable-online-business',
   status: 'published',
   featured: false,

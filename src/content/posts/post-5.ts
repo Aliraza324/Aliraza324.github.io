@@ -16,9 +16,9 @@ export const post5: Article = {
   featuredImage: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'A collaborative small business workshop discussing strategic workflow planning',
   readingTime: 8,
-  seoTitle: 'How Small Businesses Can Use AI Responsibly in 2026 | Readora',
+  seoTitle: 'How Small Businesses Use AI in 2026 | Readora',
   seoDescription:
-    'A pragmatic guide for small business founders on deploying artificial intelligence responsibly: safeguarding customer privacy, avoiding hallucination pitfalls, and automating high-ROI workflows.',
+    'A pragmatic guide for small business founders deploying AI responsibly: safeguarding customer privacy, avoiding hallucinations, and automating workflows.',
   canonicalUrl: 'https://readora.me/blog/how-small-businesses-can-use-ai-responsibly',
   status: 'published',
   featured: false,

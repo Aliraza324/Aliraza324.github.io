@@ -40,7 +40,9 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
   }
 
   return {
-    title: article.seoTitle,
+    title: {
+      absolute: article.seoTitle,
+    },
     description: article.seoDescription,
     authors: [{ name: article.author.name, url: `https://readora.me/authors/${article.author.slug}` }],
     alternates: {

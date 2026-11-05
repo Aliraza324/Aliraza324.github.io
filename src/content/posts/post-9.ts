@@ -16,9 +16,9 @@ export const post9: Article = {
   featuredImage: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'Padlock icon illuminating a computer keyboard signifying personal data defense and privacy',
   readingTime: 8,
-  seoTitle: 'Essential Cybersecurity Practices for Everyday Internet Users in 2026 | Readora',
+  seoTitle: 'Essential Cybersecurity Practices for 2026 | Readora',
   seoDescription:
-    'A realistic, no-nonsense cybersecurity checklist for 2026: defending against AI voice scams, securing cellular SIM profiles, using encrypted DNS, and managing device isolation.',
+    'A practical 2026 cybersecurity checklist: defending against AI voice scams, securing cellular SIM profiles, encrypted DNS, and device safety.',
   canonicalUrl: 'https://readora.me/blog/essential-cybersecurity-practices-for-everyday-internet-users',
   status: 'published',
   featured: false,

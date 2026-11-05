@@ -18,7 +18,7 @@ export const post3: Article = {
   readingTime: 9,
   seoTitle: 'How to Build a Secure Online Presence in 2026 | Readora',
   seoDescription:
-    'A comprehensive field guide to safeguarding your digital identity, configuring cryptographic passkeys, segmenting email infrastructure, and preventing unauthorized data harvesting.',
+    'A practical guide to securing digital identity in 2026: configuring passkeys, email segmentation, and blocking unauthorized data harvesting.',
   canonicalUrl: 'https://readora.me/blog/how-to-build-a-secure-online-presence',
   status: 'published',
   featured: false,

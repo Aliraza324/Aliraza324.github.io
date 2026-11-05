@@ -16,9 +16,9 @@ export const post7: Article = {
   featuredImage: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'Data analytics graph and high-performance server metrics on a glowing monitor screen',
   readingTime: 9,
-  seoTitle: 'Understanding Website Performance and Core Web Vitals | Readora',
+  seoTitle: 'Website Performance & Core Web Vitals Guide | Readora',
   seoDescription:
-    'A senior engineer’s field manual for optimizing Core Web Vitals in 2026: deep-dive diagnostics for Interaction to Next Paint (INP), sub-2.5s LCP, and zero CLS.',
+    'A senior engineer’s field guide to Core Web Vitals in 2026: deep-dive diagnostics for Interaction to Next Paint (INP), sub-2.5s LCP, and zero CLS.',
   canonicalUrl: 'https://readora.me/blog/understanding-website-performance-and-core-web-vitals',
   status: 'published',
   featured: false,
