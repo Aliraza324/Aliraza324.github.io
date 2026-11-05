@@ -4,6 +4,7 @@ import { AnnouncementBar } from '@/components/layout/AnnouncementBar';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { OrganizationJsonLd, WebSiteJsonLd } from '@/components/seo/JsonLd';
+import { GoogleAnalytics } from '@/components/seo/GoogleAnalytics';
 import { siteConfig } from '@/data/siteConfig';
 
 export const metadata: Metadata = {
@@ -84,6 +85,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex flex-col min-h-screen">
+        <GoogleAnalytics />
         <OrganizationJsonLd />
         <WebSiteJsonLd />
         <AnnouncementBar />
