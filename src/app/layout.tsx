@@ -69,6 +69,11 @@ export const metadata: Metadata = {
     shortcut: '/favicon.ico',
     apple: '/icon.svg',
   },
+  verification: {
+    other: {
+      'msvalidate.01': '901A285CC92B24FD5CCD0F8D6491EFE6',
+    },
+  },
   alternates: {
     canonical: siteConfig.url,
     types: {
