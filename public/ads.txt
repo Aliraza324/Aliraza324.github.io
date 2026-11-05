@@ -1,0 +1,9 @@
+# Google AdSense Publisher Authorization Record (ads.txt)
+# Official domain: readora.me
+# 
+# Once your Google AdSense account is reviewed and approved, replace the comment below 
+# with your official publisher record provided in your Google AdSense dashboard:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+#
+# Learn more: https://support.google.com/adsense/answer/7532444
+
