@@ -10,9 +10,10 @@ permissions:
   pages: write
   id-token: write
 
+# Official Next.js Static Export deployment to GitHub Pages
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
