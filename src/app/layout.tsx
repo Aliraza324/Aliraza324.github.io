@@ -60,6 +60,14 @@ export const metadata: Metadata = {
     creator: siteConfig.twitterHandle,
     images: [siteConfig.ogImage],
   },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/icon.svg',
+  },
   alternates: {
     canonical: siteConfig.url,
     types: {
