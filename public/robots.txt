@@ -1,7 +1,10 @@
 User-agent: *
 Allow: /
-Disallow: /api/
-Disallow: /_next/
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
 
 Sitemap: https://readora.me/sitemap.xml
-
