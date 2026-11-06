@@ -1,10 +1,31 @@
 User-agent: *
 Allow: /
 
+# Major Search Engines
+User-agent: Googlebot
+Allow: /
+
 User-agent: Bingbot
 Allow: /
 
-User-agent: Googlebot
+# OpenAI / ChatGPT Search & Browsing
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# AI Search & Retrieval Engines
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot
 Allow: /
 
 Sitemap: https://readora.me/sitemap.xml
