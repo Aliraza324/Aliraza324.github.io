@@ -9,13 +9,25 @@ export interface BreadcrumbItem {
   href?: string;
 }
 
-export const Breadcrumbs: React.FC<{ items: BreadcrumbItem[] }> = ({ items }) => {
+export const Breadcrumbs: React.FC<{
+  items: BreadcrumbItem[];
+  currentUrl?: string;
+}> = ({ items, currentUrl }) => {
   const jsonLdItems = [
     { name: 'Home', url: siteConfig.url },
-    ...items.map((item) => ({
-      name: item.label,
-      url: item.href ? `${siteConfig.url}${item.href}` : siteConfig.url,
-    })),
+    ...items.map((item, index) => {
+      const isLast = index === items.length - 1;
+      let url = siteConfig.url;
+      if (item.href) {
+        url = item.href.startsWith('http') ? item.href : `${siteConfig.url}${item.href}`;
+      } else if (isLast && currentUrl) {
+        url = currentUrl.startsWith('http') ? currentUrl : `${siteConfig.url}${currentUrl}`;
+      }
+      return {
+        name: item.label,
+        url,
+      };
+    }),
   ];
 
   return (

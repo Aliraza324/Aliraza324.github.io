@@ -15,7 +15,7 @@ import { ArticleBody } from '@/components/article/ArticleBody';
 import { RelatedArticles } from '@/components/article/RelatedArticles';
 import { NewsletterBox } from '@/components/newsletter/NewsletterBox';
 import { InArticleAdSlot, SidebarAdSlot } from '@/components/ads/InArticleAdSlot';
-import { ArticleJsonLd } from '@/components/seo/JsonLd';
+import { ArticleJsonLd, FaqJsonLd } from '@/components/seo/JsonLd';
 import { Clock, Calendar, RefreshCw } from 'lucide-react';
 
 interface ArticlePageProps {
@@ -87,6 +87,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
   return (
     <article className="min-h-screen pb-16">
       <ArticleJsonLd article={article} />
+      <FaqJsonLd faqs={article.faqs} />
 
       {/* Breadcrumb Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
@@ -94,8 +95,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           items={[
             { label: 'Articles', href: '/blog' },
             { label: article.categoryName, href: `/categories/${article.category}` },
-            { label: article.title },
+            { label: article.title, href: `/blog/${article.slug}` },
           ]}
+          currentUrl={article.canonicalUrl}
         />
       </div>
 

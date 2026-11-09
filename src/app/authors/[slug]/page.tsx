@@ -65,8 +65,9 @@ export default function AuthorPage({ params }: AuthorPageProps) {
       <Breadcrumbs
         items={[
           { label: 'Authors', href: '/authors' },
-          { label: author.name },
+          { label: author.name, href: `/authors/${author.slug}` },
         ]}
+        currentUrl={`https://readora.me/authors/${author.slug}`}
       />
 
       {/* Author Dossier Hero Card */}

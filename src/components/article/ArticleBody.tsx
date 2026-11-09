@@ -23,6 +23,27 @@ export const ArticleBody: React.FC<ArticleBodyProps> = ({ content }) => {
   let codeLang = '';
   let inTable = false;
   let tableRows: string[][] = [];
+  let inList: 'ul' | 'ol' | null = null;
+  let listItems: React.ReactNode[] = [];
+
+  const flushList = (key: number) => {
+    if (!inList || listItems.length === 0) return;
+    if (inList === 'ul') {
+      blocks.push(
+        <ul key={`ul-${key}`} className="my-5 ml-6 list-disc space-y-2 text-ink-body font-sans">
+          {listItems}
+        </ul>
+      );
+    } else {
+      blocks.push(
+        <ol key={`ol-${key}`} className="my-5 ml-6 list-decimal space-y-2 text-ink-body font-sans">
+          {listItems}
+        </ol>
+      );
+    }
+    listItems = [];
+    inList = null;
+  };
 
   const flushTable = (key: number) => {
     if (tableRows.length === 0) return;
@@ -168,6 +189,7 @@ export const ArticleBody: React.FC<ArticleBodyProps> = ({ content }) => {
         flushCode(i);
       } else {
         if (inTable) flushTable(i);
+        if (inList) flushList(i);
         inCodeBlock = true;
         codeLang = line.replace('```', '').trim();
       }
@@ -181,6 +203,7 @@ export const ArticleBody: React.FC<ArticleBodyProps> = ({ content }) => {
 
     // Handle Tables
     if (line.trim().startsWith('|') && line.trim().endsWith('|')) {
+      if (inList) flushList(i);
       inTable = true;
       const cells = line
         .trim()
@@ -194,6 +217,7 @@ export const ArticleBody: React.FC<ArticleBodyProps> = ({ content }) => {
 
     // Handle Headings
     if (line.startsWith('## ')) {
+      if (inList) flushList(i);
       const title = line.replace('## ', '').trim();
       const id = slugify(title);
       blocks.push(
@@ -209,6 +233,7 @@ export const ArticleBody: React.FC<ArticleBodyProps> = ({ content }) => {
     }
 
     if (line.startsWith('### ')) {
+      if (inList) flushList(i);
       const title = line.replace('### ', '').trim();
       const id = slugify(title);
       blocks.push(
@@ -225,6 +250,7 @@ export const ArticleBody: React.FC<ArticleBodyProps> = ({ content }) => {
 
     // Divider
     if (line.trim() === '---') {
+      if (inList) flushList(i);
       blocks.push(
         <hr key={i} className="my-10 border-t border-ink-border" />
       );
@@ -233,9 +259,11 @@ export const ArticleBody: React.FC<ArticleBodyProps> = ({ content }) => {
 
     // Unordered List item
     if (line.trim().startsWith('- ')) {
+      if (inList === 'ol') flushList(i);
+      inList = 'ul';
       const itemText = line.trim().slice(2);
-      blocks.push(
-        <li key={i} className="text-ink-body font-sans my-1.5 ml-6 list-disc">
+      listItems.push(
+        <li key={`li-${i}`} className="leading-relaxed">
           {parseInline(itemText)}
         </li>
       );
@@ -244,9 +272,11 @@ export const ArticleBody: React.FC<ArticleBodyProps> = ({ content }) => {
 
     // Ordered List item
     if (/^\d+\.\s/.test(line.trim())) {
+      if (inList === 'ul') flushList(i);
+      inList = 'ol';
       const itemText = line.trim().replace(/^\d+\.\s/, '');
-      blocks.push(
-        <li key={i} className="text-ink-body font-sans my-1.5 ml-6 list-decimal">
+      listItems.push(
+        <li key={`li-${i}`} className="leading-relaxed">
           {parseInline(itemText)}
         </li>
       );
@@ -255,6 +285,7 @@ export const ArticleBody: React.FC<ArticleBodyProps> = ({ content }) => {
 
     // Blockquote
     if (line.startsWith('> ')) {
+      if (inList) flushList(i);
       const quoteText = line.slice(2);
       blocks.push(
         <blockquote
@@ -269,10 +300,12 @@ export const ArticleBody: React.FC<ArticleBodyProps> = ({ content }) => {
 
     // Empty lines
     if (!line.trim()) {
+      if (inList) flushList(i);
       continue;
     }
 
     // Standard Paragraph
+    if (inList) flushList(i);
     blocks.push(
       <p key={i} className="text-ink-body font-serif text-lg leading-[1.8] my-5">
         {parseInline(line)}
@@ -282,6 +315,7 @@ export const ArticleBody: React.FC<ArticleBodyProps> = ({ content }) => {
 
   if (inCodeBlock) flushCode(lines.length);
   if (inTable) flushTable(lines.length);
+  if (inList) flushList(lines.length);
 
   return <div className="article-body font-serif">{blocks}</div>;
 };

@@ -49,8 +49,9 @@ export default function CategoryPage({ params }: CategoryPageProps) {
       <Breadcrumbs
         items={[
           { label: 'Categories', href: '/categories' },
-          { label: category.name },
+          { label: category.name, href: `/categories/${category.slug}` },
         ]}
+        currentUrl={`https://readora.me/categories/${category.slug}`}
       />
 
       <header className="max-w-3xl mb-12 pt-4">
