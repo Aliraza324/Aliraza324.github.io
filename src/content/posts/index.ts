@@ -10,6 +10,7 @@ import { post8 } from './post-8';
 import { post9 } from './post-9';
 import { post10 } from './post-10';
 import { post11 } from './post-11';
+import { post12 } from './post-12';
 
 export const allPosts: Article[] = [
   post1,
@@ -23,6 +24,7 @@ export const allPosts: Article[] = [
   post9,
   post10,
   post11,
+  post12,
 ];
 
 // Helper functions for content retrieval
