@@ -19,7 +19,7 @@ export const BlogListingView: React.FC<BlogListingViewProps> = ({
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [sortBy, setSortBy] = useState<'latest' | 'oldest' | 'readingTime'>('latest');
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 6;
+  const itemsPerPage = 12;
 
   // Filter and sort articles
   const filteredArticles = useMemo(() => {

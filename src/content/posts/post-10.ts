@@ -27,7 +27,7 @@ export const post10: Article = {
   sources: [
     {
       title: 'Information Retrieval in the Age of Generative Answer Engines',
-      url: 'https://acm.org',
+      url: 'https://www.acm.org',
       publisher: 'ACM Transactions on Information Systems',
       year: 2026,
     },
@@ -39,7 +39,7 @@ export const post10: Article = {
     },
     {
       title: 'The Semantic Knowledge Graph: Moving Beyond String Matching to Entity Relationships',
-      url: 'https://w3.org/standards/semanticweb/',
+      url: 'https://www.w3.org/standards/semanticweb/',
       publisher: 'World Wide Web Consortium',
       year: 2025,
     },

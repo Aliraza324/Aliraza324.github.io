@@ -1,0 +1,28 @@
+# Readora
+
+> Readora is an authoritative digital publication exploring advances in artificial intelligence, modern web engineering, cybersecurity, and sustainable digital business.
+
+## Core Topics
+- [Artificial Intelligence & Technology](https://readora.me/categories/ai-and-technology): In-depth investigations into generative intelligence, agentic workflows, autonomous systems, and enterprise machine learning.
+- [Web Development & Digital Skills](https://readora.me/categories/web-development-and-skills): Modern frontend architecture, full-stack performance patterns, Core Web Vitals, and software engineering craft.
+- [Productivity & Software](https://readora.me/categories/productivity-and-software): Pragmatic workflows, distraction-free digital environments, and high-leverage cognitive systems.
+- [Online Business](https://readora.me/categories/online-business): Sustainable unit economics, bootstrapping modern digital products, and audience-first publishing.
+- [Digital Trends & Internet](https://readora.me/categories/digital-trends-and-internet): Evolving information discovery, algorithmic search shifts, and personal cybersecurity.
+
+## Published Technical Articles & Field Guides
+- [How AI Tools Are Changing Everyday Digital Work in 2026](https://readora.me/blog/how-ai-tools-are-changing-everyday-digital-work-in-2026): Moving from chatbots to ambient autonomous multi-agent co-workers.
+- [Practical AI Skills Worth Learning in 2026](https://readora.me/blog/practical-ai-skills-worth-learning-in-2026): Architectural guidance on prompt design, cognitive workflows, and output verification.
+- [How to Build a Secure Online Presence](https://readora.me/blog/how-to-build-a-secure-online-presence): Hardware passkeys, zero-trust digital footprints, and domain registry locks.
+- [Web Development Technologies and Skills to Watch in 2026](https://readora.me/blog/web-development-technologies-and-skills-to-watch-in-2026): WinterCG standards, edge runtimes, component architecture, and full-stack performance.
+- [Understanding Website Performance and Core Web Vitals](https://readora.me/blog/understanding-website-performance-and-core-web-vitals): Deep diagnostics for Interaction to Next Paint (INP), sub-2.5s LCP, and zero CLS.
+- [Essential Cybersecurity Practices for Everyday Internet Users](https://readora.me/blog/essential-cybersecurity-practices-for-everyday-internet-users): Modern threat modeling, credential hygiene, and privacy protocols.
+- [How Small Businesses Can Use AI Responsibly](https://readora.me/blog/how-small-businesses-can-use-ai-responsibly): Human-in-the-loop workflows, data isolation, and ethical deployment.
+- [Digital Productivity Workflows That Save Time](https://readora.me/blog/digital-productivity-workflows-that-save-time): Deep work environments, calendar architecture, and notification boundaries.
+- [How to Start a Sustainable Online Business](https://readora.me/blog/how-to-start-a-sustainable-online-business): Bootstrapping capital, product discovery, and unit margin optimization.
+- [How Search and Content Discovery Are Evolving in 2026](https://readora.me/blog/how-search-and-content-discovery-are-evolving-in-2026): Semantic vector search, generative answer engines, and entity knowledge graphs.
+
+## Editorial Standards & Trust
+- [About Readora](https://readora.me/about): Editorial mission, ethics, and team background.
+- [Editorial & AI Disclosure Policy](https://readora.me/editorial-policy): Fact checking, corrections, and AI usage disclosure.
+- [Contact & Press Desk](https://readora.me/contact): Editorial tips, corrections, and communications.
+- [RSS Syndication Feed](https://readora.me/feed.xml): Full XML syndication feed.

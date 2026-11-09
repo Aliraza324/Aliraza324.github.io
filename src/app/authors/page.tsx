@@ -21,16 +21,22 @@ export default function AuthorsIndexPage() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-14">
       <Breadcrumbs items={[{ label: 'Authors', href: '/authors' }]} />
 
-      <header className="max-w-3xl mb-12 pt-4">
+      <header className="max-w-4xl mb-12 pt-4">
         <span className="text-xs font-mono uppercase tracking-widest text-editorial-accent font-semibold">
           Masthead & Bylines
         </span>
         <h1 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink-heading mt-2 mb-4">
-          Editorial Staff & Authors
+          Editorial Staff & Contributing Authors
         </h1>
-        <p className="text-sm sm:text-base text-ink-body font-sans leading-relaxed">
-          Readora is produced by a dedicated group of practitioners—systems engineers, researchers, and
-          digital strategists committed to technical depth and journalistic rigor.
+        <p className="text-sm sm:text-base text-ink-body font-sans leading-relaxed mb-4">
+          Readora is published by an independent editorial team composed of software architects, privacy researchers,
+          and seasoned technical essayists. We believe that credible technology analysis requires firsthand engineering
+          experience combined with rigorous fact-checking and ethical transparency.
+        </p>
+        <p className="text-sm sm:text-base text-ink-muted font-sans leading-relaxed">
+          Every author listed in our masthead maintains hands-on technical domain expertise in their respective coverage
+          areas. Explore our writer dossiers below to learn more about each contributor’s background, specialized disciplines,
+          academic citations, and full catalog of published technical essays.
         </p>
       </header>
 
@@ -96,6 +102,25 @@ export default function AuthorsIndexPage() {
             </div>
           );
         })}
+      </div>
+
+      {/* Author Byline & Review Standards */}
+      <div className="mt-16 pt-12 border-t border-ink-border max-w-4xl">
+        <h2 className="font-serif text-2xl font-bold text-ink-heading mb-4">
+          Byline Transparency & E-E-A-T Standards
+        </h2>
+        <div className="space-y-4 text-sm text-ink-body font-sans leading-relaxed">
+          <p>
+            At Readora, every article is credited to a verified human writer who takes personal ownership
+            over the technical accuracy and ethical stance of their work. We strictly avoid pseudonymous or
+            unattributed publications.
+          </p>
+          <p className="text-ink-muted">
+            Our contributors regularly update their publications as underlying software standards, foundation
+            models, or security advisories evolve. If an article’s recommendations change, revisions are
+            documented with clear update timestamps to ensure readers always access contemporary best practices.
+          </p>
+        </div>
       </div>
     </div>
   );

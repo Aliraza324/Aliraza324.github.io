@@ -33,7 +33,7 @@ export const post9: Article = {
     },
     {
       title: 'Consumer Reports Security Lab: Personal Privacy and Device Hardening Benchmarks',
-      url: 'https://consumerreports.org',
+      url: 'https://www.consumerreports.org',
       publisher: 'Consumer Reports Security Lab',
       year: 2025,
     },

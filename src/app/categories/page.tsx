@@ -20,16 +20,22 @@ export default function CategoriesIndexPage() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-14">
       <Breadcrumbs items={[{ label: 'Categories', href: '/categories' }]} />
 
-      <header className="max-w-3xl mb-12 pt-4">
+      <header className="max-w-4xl mb-12 pt-4">
         <span className="text-xs font-mono uppercase tracking-widest text-editorial-accent font-semibold">
           Taxonomy & Subjects
         </span>
         <h1 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-ink-heading mt-2 mb-4">
           Editorial Topics & Coverage Areas
         </h1>
-        <p className="text-sm sm:text-base text-ink-body font-sans leading-relaxed">
-          Our publications are organized across five dedicated thematic disciplines. Browse each
-          section to discover in-depth essays, architectural patterns, and verified field guides.
+        <p className="text-sm sm:text-base text-ink-body font-sans leading-relaxed mb-4">
+          Our publications are organized across five dedicated thematic disciplines, reflecting the
+          interconnected nature of modern software engineering, autonomous intelligence systems, digital
+          privacy, and sustainable online economics.
+        </p>
+        <p className="text-sm sm:text-base text-ink-muted font-sans leading-relaxed">
+          Each category dossier provides curated access to comprehensive investigative essays, architectural
+          blueprints, and actionable frameworks crafted for technology leaders, systems engineers, and
+          digital practitioners. Select any topic below to explore specialized publications.
         </p>
       </header>
 
@@ -78,6 +84,26 @@ export default function CategoriesIndexPage() {
             </div>
           );
         })}
+      </div>
+
+      {/* Editorial Taxonomy Standards */}
+      <div className="mt-16 pt-12 border-t border-ink-border max-w-4xl">
+        <h2 className="font-serif text-2xl font-bold text-ink-heading mb-4">
+          How We Define & Curate Our Coverage Areas
+        </h2>
+        <div className="space-y-4 text-sm text-ink-body font-sans leading-relaxed">
+          <p>
+            Unlike generalist tech blogs that produce aggregated news bites, Readora focuses strictly on
+            durable, high-leverage domains that reshape technical industries over multi-year horizons.
+            Our editorial staff tracks peer-reviewed computing publications, opensource software specifications,
+            and verified corporate deployments to ensure each article provides foundational value.
+          </p>
+          <p className="text-ink-muted">
+            All categories follow strict internal editorial guidelines: code snippets must execute deterministically,
+            performance claims must be supported by measurable benchmarks, and strategic business advice must be grounded
+            in transparent unit economics rather than unverified vanity metrics.
+          </p>
+        </div>
       </div>
     </div>
   );

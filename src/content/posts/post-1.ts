@@ -39,7 +39,7 @@ export const post1: Article = {
     },
     {
       title: 'Modernizing Digital Workspaces: The Shift Toward Agentic Infrastructure',
-      url: 'https://acm.org',
+      url: 'https://www.acm.org',
       publisher: 'Communications of the ACM',
       year: 2026,
     },

@@ -27,19 +27,19 @@ export const post7: Article = {
   sources: [
     {
       title: 'Google Web Vitals Official Documentation: Interaction to Next Paint (INP)',
-      url: 'https://web.dev/explore/metrics',
+      url: 'https://web.dev/vitals/',
       publisher: 'Google Chrome Developers',
       year: 2026,
     },
     {
       title: 'Real User Monitoring (RUM) & Performance Budgets in Modern Web Apps',
-      url: 'https://w3.org/TR/navigation-timing-2/',
+      url: 'https://www.w3.org/TR/navigation-timing-2/',
       publisher: 'World Wide Web Consortium (W3C)',
       year: 2025,
     },
     {
       title: 'The Financial Impact of Sub-Second Page Speeds on E-Commerce Conversions',
-      url: 'https://akamai.com',
+      url: 'https://www.akamai.com',
       publisher: 'Akamai State of the Internet',
       year: 2025,
     },

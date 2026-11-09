@@ -48,7 +48,9 @@ export const Footer: React.FC = () => {
           {/* Col 3: Editorial Sections */}
           <div className="space-y-3">
             <h3 className="text-xs font-mono uppercase tracking-widest text-neutral-300 font-semibold">
-              Sections
+              <Link href="/categories" className="hover:text-white transition-colors">
+                Sections & Topics
+              </Link>
             </h3>
             <ul className="space-y-2 text-sm text-neutral-400">
               {siteConfig.categories.map((cat) => (

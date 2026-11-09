@@ -39,7 +39,7 @@ export const post4: Article = {
     },
     {
       title: 'Architectural Patterns for Zero-Hydration Client Frameworks',
-      url: 'https://acm.org',
+      url: 'https://www.acm.org',
       publisher: 'ACM Queue Software Engineering',
       year: 2025,
     },
