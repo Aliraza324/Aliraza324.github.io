@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { OrganizationJsonLd, WebSiteJsonLd } from '@/components/seo/JsonLd';
 import { GoogleAnalytics } from '@/components/seo/GoogleAnalytics';
+import { MicrosoftClarity } from '@/components/seo/MicrosoftClarity';
 import { siteConfig } from '@/data/siteConfig';
 
 export const metadata: Metadata = {
@@ -92,6 +93,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="flex flex-col min-h-screen">
         <GoogleAnalytics />
+        <MicrosoftClarity />
         <OrganizationJsonLd />
         <WebSiteJsonLd />
         <AnnouncementBar />
