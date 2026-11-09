@@ -21,7 +21,7 @@ export const post1: Article = {
     'Explore how autonomous agents and ambient AI transform digital workplaces in 2026, shifting knowledge workers to high-value strategic oversight.',
   canonicalUrl: 'https://readora.me/blog/how-ai-tools-are-changing-everyday-digital-work-in-2026',
   status: 'published',
-  featured: true,
+  featured: false,
   trending: true,
   editorsPick: true,
   sources: [
