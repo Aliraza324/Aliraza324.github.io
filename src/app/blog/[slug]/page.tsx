@@ -47,6 +47,10 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
     authors: [{ name: article.author.name, url: `https://readora.me/authors/${article.author.slug}` }],
     alternates: {
       canonical: article.canonicalUrl,
+      languages: {
+        en: article.canonicalUrl,
+        'x-default': article.canonicalUrl,
+      },
     },
     openGraph: {
       type: 'article',

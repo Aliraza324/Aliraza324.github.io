@@ -31,6 +31,10 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     description: category.description,
     alternates: {
       canonical: `https://readora.me/categories/${category.slug}`,
+      languages: {
+        en: `https://readora.me/categories/${category.slug}`,
+        'x-default': `https://readora.me/categories/${category.slug}`,
+      },
     },
   };
 }

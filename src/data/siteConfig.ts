@@ -36,7 +36,7 @@ export const siteConfig: SiteConfig = {
   shortName: 'Readora',
   tagline: 'Practical AI, Web Dev & Cybersecurity Guides',
   description:
-    'Practical guides on AI tools, Core Web Vitals, web engineering, and cybersecurity. Read Readora in-depth 2026 technical analysis, tutorials, and benchmarks.',
+    "Practical guides on AI tools, Core Web Vitals, web dev, and cybersecurity. Explore Readora's 2026 technical analysis and tutorials.",
   url: 'https://readora.me',
   ogImage: 'https://readora.me/images/og-default.jpg',
   author: 'Readora Editorial Team',

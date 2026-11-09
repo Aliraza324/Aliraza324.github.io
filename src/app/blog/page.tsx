@@ -11,6 +11,10 @@ export const metadata: Metadata = {
     'Browse all published articles, technical research guides, and analysis across AI, web development, cybersecurity, and digital business.',
   alternates: {
     canonical: 'https://readora.me/blog',
+    languages: {
+      en: 'https://readora.me/blog',
+      'x-default': 'https://readora.me/blog',
+    },
   },
 };
 

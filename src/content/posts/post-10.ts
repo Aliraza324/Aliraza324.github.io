@@ -18,7 +18,7 @@ export const post10: Article = {
   readingTime: 9,
   seoTitle: 'How Search & Content Discovery Evolve in 2026 | Readora',
   seoDescription:
-    'An editorial analysis of how Google AI Overviews, Answer Engine Optimization (AEO), and semantic search graphs are reshaping the publishing landscape in 2026.',
+    'How Google AI Overviews, Answer Engine Optimization (AEO), and semantic search graphs are reshaping digital publishing in 2026.',
   canonicalUrl: 'https://readora.me/blog/how-search-and-content-discovery-are-evolving-in-2026',
   status: 'published',
   featured: false,

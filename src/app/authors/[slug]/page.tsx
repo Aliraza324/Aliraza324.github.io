@@ -34,6 +34,10 @@ export async function generateMetadata({ params }: AuthorPageProps): Promise<Met
     description: author.bio,
     alternates: {
       canonical: `https://readora.me/authors/${author.slug}`,
+      languages: {
+        en: `https://readora.me/authors/${author.slug}`,
+        'x-default': `https://readora.me/authors/${author.slug}`,
+      },
     },
     openGraph: {
       title: `${author.name} — Readora Editorial`,
