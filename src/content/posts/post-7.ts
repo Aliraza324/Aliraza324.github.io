@@ -11,8 +11,8 @@ export const post7: Article = {
   categoryName: 'Web Development & Digital Skills',
   tags: ['Web Performance', 'Core Web Vitals', 'INP', 'LCP', 'Next.js', 'Lighthouse'],
   author: authors[0], // Ali Raza
-  publishedAt: '2026-11-05T09:30:00Z',
-  updatedAt: '2026-11-05T11:15:00Z',
+  publishedAt: '2026-10-27T11:00:00Z',
+  updatedAt: '2026-10-28T09:30:00Z',
   featuredImage: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'Data analytics graph and high-performance server metrics on a glowing monitor screen',
   readingTime: 9,

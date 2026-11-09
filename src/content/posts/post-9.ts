@@ -11,8 +11,8 @@ export const post9: Article = {
   categoryName: 'Digital Trends & Internet',
   tags: ['Cybersecurity', 'Online Safety', 'Phishing Defense', 'Privacy', 'Device Security'],
   author: authors[2], // Marcus Chen
-  publishedAt: '2026-11-05T10:00:00Z',
-  updatedAt: '2026-11-05T11:45:00Z',
+  publishedAt: '2026-10-19T14:20:00Z',
+  updatedAt: '2026-10-20T10:15:00Z',
   featuredImage: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'Padlock icon illuminating a computer keyboard signifying personal data defense and privacy',
   readingTime: 8,

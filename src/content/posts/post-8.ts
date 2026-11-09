@@ -11,8 +11,8 @@ export const post8: Article = {
   categoryName: 'Online Business',
   tags: ['Online Business', 'Bootstrapping', 'Unit Economics', 'Digital Publishing', 'SaaS'],
   author: authors[2], // Marcus Chen
-  publishedAt: '2026-11-05T09:45:00Z',
-  updatedAt: '2026-11-05T11:30:00Z',
+  publishedAt: '2026-10-02T08:45:00Z',
+  updatedAt: '2026-10-03T16:20:00Z',
   featuredImage: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'A modern financial dashboard depicting sustainable business metrics and steady organic growth',
   readingTime: 9,

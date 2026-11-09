@@ -11,8 +11,8 @@ export const post3: Article = {
   categoryName: 'Digital Trends & Internet',
   tags: ['Cybersecurity', 'Privacy', 'Passkeys', 'Digital Sovereignty', 'Identity'],
   author: authors[2], // Marcus Chen
-  publishedAt: '2026-11-05T08:30:00Z',
-  updatedAt: '2026-11-05T10:15:00Z',
+  publishedAt: '2026-10-15T08:00:00Z',
+  updatedAt: '2026-10-16T15:00:00Z',
   featuredImage: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'A futuristic cyber defense server interface symbolizing personal security architecture',
   readingTime: 9,

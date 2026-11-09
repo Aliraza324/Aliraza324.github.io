@@ -44,14 +44,14 @@ export default function HomePage() {
         <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-2 bg-paper-100 border border-ink-border px-3 py-1 rounded-full text-xs font-mono text-ink-muted mb-4">
             <Sparkles className="w-3.5 h-3.5 text-editorial-accent" />
-            <span>Volume IV • Issue No. 11 • November 5, 2026</span>
+            <span>Rigorous Technical Journalism • 2026 Edition</span>
           </div>
           <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-ink-heading leading-tight">
-            Rigorous analysis for the modern digital era.
+            AI, Web Development &amp; Cybersecurity Insights
           </h1>
           <p className="mt-4 text-base sm:text-lg text-ink-body font-sans leading-relaxed">
-            Exploring the frontiers of artificial intelligence, high-performance web
-            architecture, personal digital sovereignty, and sustainable online business models.
+            Rigorous technical analysis and practical engineering guides on generative intelligence,
+            Core Web Vitals, digital sovereignty, and sustainable online business.
           </p>
         </div>
 

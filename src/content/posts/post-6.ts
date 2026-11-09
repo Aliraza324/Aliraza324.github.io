@@ -11,8 +11,8 @@ export const post6: Article = {
   categoryName: 'Productivity & Software',
   tags: ['Productivity', 'Deep Work', 'Knowledge Management', 'Asynchronous Work', 'Software Tools'],
   author: authors[1], // Elena Vance
-  publishedAt: '2026-11-05T09:15:00Z',
-  updatedAt: '2026-11-05T11:00:00Z',
+  publishedAt: '2026-10-11T10:30:00Z',
+  updatedAt: '2026-10-12T13:45:00Z',
   featuredImage: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'A clean, minimalist wooden desk with a notebook, pen, and laptop embodying focused productivity',
   readingTime: 8,

@@ -34,9 +34,9 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   name: 'Readora',
   shortName: 'Readora',
-  tagline: 'Modern Editorial on Technology, AI, Development & Digital Craft',
+  tagline: 'Practical AI, Web Dev & Cybersecurity Guides',
   description:
-    'Readora is an authoritative digital publication exploring advances in artificial intelligence, modern web engineering, and sustainable digital business.',
+    'Practical guides on AI tools, Core Web Vitals, web engineering, and cybersecurity. Read Readora in-depth 2026 technical analysis, tutorials, and benchmarks.',
   url: 'https://readora.me',
   ogImage: 'https://readora.me/images/og-default.jpg',
   author: 'Readora Editorial Team',

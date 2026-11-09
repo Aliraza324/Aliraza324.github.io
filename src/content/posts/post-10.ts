@@ -11,12 +11,12 @@ export const post10: Article = {
   categoryName: 'Digital Trends & Internet',
   tags: ['SEO', 'Search Engines', 'AI Overviews', 'Content Strategy', 'Semantic Web'],
   author: authors[0], // Ali Raza
-  publishedAt: '2026-11-05T10:30:00Z',
-  updatedAt: '2026-11-05T12:00:00Z',
+  publishedAt: '2026-10-30T08:30:00Z',
+  updatedAt: '2026-11-01T11:00:00Z',
   featuredImage: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'Digital globe with interconnected light nodes representing semantic content discovery networks',
   readingTime: 9,
-  seoTitle: 'How Search and Content Discovery Are Evolving in 2026 | Readora',
+  seoTitle: 'How Search & Content Discovery Evolve in 2026 | Readora',
   seoDescription:
     'An editorial analysis of how Google AI Overviews, Answer Engine Optimization (AEO), and semantic search graphs are reshaping the publishing landscape in 2026.',
   canonicalUrl: 'https://readora.me/blog/how-search-and-content-discovery-are-evolving-in-2026',

@@ -11,8 +11,8 @@ export const post4: Article = {
   categoryName: 'Web Development & Digital Skills',
   tags: ['Web Development', 'Next.js', 'React Server Components', 'Edge Computing', 'TypeScript'],
   author: authors[0], // Ali Raza
-  publishedAt: '2026-11-05T08:45:00Z',
-  updatedAt: '2026-11-05T10:30:00Z',
+  publishedAt: '2026-10-23T09:45:00Z',
+  updatedAt: '2026-10-24T12:00:00Z',
   featuredImage: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'Monochromatic computer terminal displaying modern frontend architecture and clean syntax',
   readingTime: 10,

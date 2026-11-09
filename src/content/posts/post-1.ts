@@ -11,8 +11,8 @@ export const post1: Article = {
   categoryName: 'Artificial Intelligence & Technology',
   tags: ['Artificial Intelligence', 'Future of Work', 'Agentic Workflows', 'Automation'],
   author: authors[0], // Ali Raza
-  publishedAt: '2026-11-05T08:00:00Z',
-  updatedAt: '2026-11-05T09:30:00Z',
+  publishedAt: '2026-11-06T09:00:00Z',
+  updatedAt: '2026-11-08T14:30:00Z',
   featuredImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'Abstract geometric shapes reflecting modern machine intelligence and data flows',
   readingTime: 8,

@@ -11,8 +11,8 @@ export const post2: Article = {
   categoryName: 'Artificial Intelligence & Technology',
   tags: ['AI Skills', 'Context Engineering', 'Model Evaluation', 'Career Skills'],
   author: authors[1], // Elena Vance
-  publishedAt: '2026-11-05T08:15:00Z',
-  updatedAt: '2026-11-05T10:00:00Z',
+  publishedAt: '2026-11-03T10:15:00Z',
+  updatedAt: '2026-11-04T16:00:00Z',
   featuredImage: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'Lines of code and matrix calculations symbolizing algorithmic skill development',
   readingTime: 7,

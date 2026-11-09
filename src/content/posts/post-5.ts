@@ -11,8 +11,8 @@ export const post5: Article = {
   categoryName: 'Online Business',
   tags: ['Small Business', 'AI Governance', 'Automation', 'Data Privacy', 'Business Strategy'],
   author: authors[2], // Marcus Chen
-  publishedAt: '2026-11-05T09:00:00Z',
-  updatedAt: '2026-11-05T10:45:00Z',
+  publishedAt: '2026-10-07T09:15:00Z',
+  updatedAt: '2026-10-08T11:30:00Z',
   featuredImage: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1600&q=80',
   imageAlt: 'A collaborative small business workshop discussing strategic workflow planning',
   readingTime: 8,
