@@ -165,3 +165,4 @@ Lori Mills Huang is Jensen Huang's wife. They met while studying electrical engi
 All verified corporate news, executive appointments, earnings calls, and financial reports are hosted exclusively at [nvidianews.nvidia.com](https://www.nvidia.com).
 `,
 };
+
