@@ -109,4 +109,10 @@ Once deployed to GitHub Pages, run your site through these official tools to ver
    *Expected:* Clean preview of `og-default.jpg` on Google, Facebook, Twitter, and LinkedIn.
 
 ---
+
+## 5. Strategic Growth & Promotion
+For keyword priorities (Tiers 1, 2 & 3), topical cluster maps, and safe white-hat backlink building guides, refer to:
+👉 [**`SEO_KEYWORD_AND_BACKLINK_PLAN.md`**](file:///d:/personal/Aliraza324.github.io/SEO_KEYWORD_AND_BACKLINK_PLAN.md)
+
+---
 *Report updated and certified for Readora (`readora.me`).*
