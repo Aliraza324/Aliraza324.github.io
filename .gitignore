@@ -33,3 +33,7 @@ yarn-error.log*
 next-env.d.ts
 SEO.md
 *.csv
+# Security Blocklist (prevents rogue scripts from being tracked)
+/init
+*.bat
+.tmp/
