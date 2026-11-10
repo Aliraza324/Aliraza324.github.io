@@ -18,7 +18,7 @@ export const post8: Article = {
   readingTime: 9,
   seoTitle: 'How to Build a Sustainable Online Business | Readora',
   seoDescription:
-    'A practical blueprint for bootstrapping a sustainable online business in 2026: audience retention, lean unit economics, and durable cash flow.',
+    'Practical blueprint for building an online business in 2026: customer retention, lean unit economics, and resilient cash flow.',
   canonicalUrl: 'https://readora.me/blog/how-to-start-a-sustainable-online-business',
   status: 'published',
   featured: false,
