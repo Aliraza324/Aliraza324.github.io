@@ -18,7 +18,7 @@ export const post6: Article = {
   readingTime: 8,
   seoTitle: 'Digital Productivity Workflows That Save Time | Readora',
   seoDescription:
-    'A deep dive into high-leverage digital productivity in 2026: asynchronous collaboration, batch processing, and distraction-proof focus regimes.',
+    'High-leverage digital productivity in 2026: async collaboration regimes, batch processing workflows, and focus-first cognitive systems.',
   canonicalUrl: 'https://readora.me/blog/digital-productivity-workflows-that-save-time',
   status: 'published',
   featured: false,

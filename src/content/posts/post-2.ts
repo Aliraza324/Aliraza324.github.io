@@ -18,7 +18,7 @@ export const post2: Article = {
   readingTime: 7,
   seoTitle: 'Practical AI Skills Worth Learning in 2026 | Readora',
   seoDescription:
-    'Discover key technical skills to build with AI in 2026: context engineering, automated evaluations, deterministic tooling, and structured outputs.',
+    'Essential AI skills for 2026: context engineering, automated evals, deterministic pipelines, and structured schema generation.',
   canonicalUrl: 'https://readora.me/blog/practical-ai-skills-worth-learning-in-2026',
   status: 'published',
   featured: false,

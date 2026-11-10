@@ -18,7 +18,7 @@ export const post7: Article = {
   readingTime: 9,
   seoTitle: 'Website Performance & Core Web Vitals Guide | Readora',
   seoDescription:
-    'A senior engineer’s field guide to Core Web Vitals in 2026: deep-dive diagnostics for Interaction to Next Paint (INP), sub-2.5s LCP, and zero CLS.',
+    'Core Web Vitals engineer guide for 2026: practical fixes for Interaction to Next Paint (INP), sub-2.5s LCP, and zero layout shift.',
   canonicalUrl: 'https://readora.me/blog/understanding-website-performance-and-core-web-vitals',
   status: 'published',
   featured: false,
